@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://app.tosend.pl/" />
+<title>ToSend rejestracja</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ToSend rejestracja</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.bogus.ovh.org/generatory/nip.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>id=nip</td>
+	<td>nip</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>https://www.10minutmail.pl/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Nowy adres email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2222</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=div.headerRowLeft &gt; strong</td>
+	<td>mail</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://app.tosend.pl/register</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2222</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>${mail}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>123abc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=passwordConfirm</td>
+	<td>123abc</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=language</td>
+	<td>label=Polski</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=option.ng-binding.ng-scope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>https://www.10minutmail.pl/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>80000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Odśwież</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.from</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Aktywuj konto</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=firstName</td>
+	<td>Jan</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lastName</td>
+	<td>Nowak</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=profileName</td>
+	<td>ABC Sp. z o.o.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyName</td>
+	<td>ABC Sp. z o.o.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyStreet</td>
+	<td>Grunwaldzka 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyPostcode</td>
+	<td>84-840</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyCity</td>
+	<td>Gdynia</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyTin</td>
+	<td>${nip}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=companyTinConfirm</td>
+	<td>${nip}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='activationForm']/fieldset[3]/section[6]/label/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//form[@id='activationForm']/fieldset[3]/section[7]/label/div/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

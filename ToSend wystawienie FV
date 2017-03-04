@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://app.tosend.pl/" />
+<title>qweqweqwe</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">qweqweqwe</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://app.tosend.pl</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='email']</td>
+	<td>fja83293@dsiay.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@type='password']</td>
+	<td>123abc</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//section[@id='widget-grid']/div/div/div/article/cards-container-widget/div/card-widget[2]/div/a/div/div[2]/div/h1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>800</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//aside[@id='left-panel']/nav/ul/li[10]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>800</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=bot1-Msg1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//section[@id='widget-grid']/div/div/div/article/invoices-invoice-form/form/div/header/div[2]/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=small.ng-binding.ng-scope</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=productAdditionalText</td>
+	<td>piłka</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=sztuki</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=productQuantitiesQuantity</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=productQuantitiesQuantity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=productQuantitiesQuantity</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=productQuantitiesQuantity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=productValuesValue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=productValuesValue</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=23%</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.full-size-button.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productAdditionalText[1]</td>
+	<td>jabłka</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[2]/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=kilogramy</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[1]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productValuesValue[1]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productValuesValue[1]</td>
+	<td>55</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[2]/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=8%</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.full-size-button.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productAdditionalText[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productAdditionalText[2]</td>
+	<td>łańcuch</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[3]/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=metry</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[2]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[2]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[2]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productValuesValue[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productValuesValue[2]</td>
+	<td>99,99</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[3]/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=zwolniona</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.full-size-button.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productAdditionalText[3]</td>
+	<td>mleko</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[4]/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=litry</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[3]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[3]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productValuesValue[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productValuesValue[3]</td>
+	<td>45</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[4]/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=0%</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.full-size-button.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productAdditionalText[4]</td>
+	<td>glazura</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[5]/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=metry kwadratowe</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[4]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[4]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[4]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productValuesValue[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productValuesValue[4]</td>
+	<td>99</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[5]/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=nie podlega</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.full-size-button.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productAdditionalText[5]</td>
+	<td>węgiel</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[6]/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=tony</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[5]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[5]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productValuesValue[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productValuesValue[5]</td>
+	<td>999</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[5]/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=8%</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.full-size-button.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productAdditionalText[6]</td>
+	<td>wiertła</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[7]/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=komplety</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[6]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[6]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[6]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[6]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productValuesValue[6]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productValuesValue[6]</td>
+	<td>89,99</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[6]/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=zwolniona</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.full-size-button.ng-binding</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productAdditionalText[7]</td>
+	<td>sprzątanie</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[8]/td[3]/div/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=usługi</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[7]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productQuantitiesQuantity[7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>document.invoiceForm.productValuesValue[7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.invoiceForm.productValuesValue[7]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//fieldset[@id='invoice-products']/div/invoices-products-form/table/tbody/tr[8]/td[7]/predefined-taxes/div/div/span/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=0%</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=receiverName</td>
+	<td>Piotr Nowak</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=invoiceFreeText</td>
+	<td>notatka dodatkowa</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[11]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=bot1-Msg1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//header[@id='header']/div[3]/div/div/div/span/a/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
